@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(26, 26, 59);
+}
+
+#accord{
+    margin: 100px auto;
+    width: 700px;
+}
+
+#list1{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#list1 label{
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#first, #second, #third{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+
+#flex1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#content1, #content2, #content3{
+    padding: 0px 10px;
+    font-size: 18px;
+    line-height: 25px;
+    max-height: 0px;
+    overflow: hidden;
+}
