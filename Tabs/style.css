@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#tab-box{
+    display: flex;
+    background: rgb(218, 217, 217);
+}
+
+.tab-btn{
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    background: rgb(218, 217, 217);
+}
+
+.tab-btn:hover{
+    background: grey !important;
+}
+
+#content-box{
+    padding: 30px 15px;
+    border: 1px solid grey;
+}
+
+.content h2{
+    margin-bottom: 5px;
+}
+
+#btn1{
+    background: white;
+}
+
+#two, #three{
+    display: none;
+}
