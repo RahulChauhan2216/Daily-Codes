@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    border: 1px solid grey;
+}
+
+#btngrp {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 18%;
+    background-color: rgb(219, 218, 218);
+    border-right: 1px solid grey;
+}
+
+.btn {
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    font-size: 17px;
+    background-color: rgb(219, 218, 218);
+}
+
+#btn1 {
+    background: rgb(154, 154, 154);
+}
+
+#content-box {
+    width: 100%;
+}
+
+.content h2 {
+    font-size: 25px;
+    padding: 15px 0px 0px 15px;
+}
+
+.content p {
+    font-size: 17px;
+    padding: 15px 10px 0px 15px;
+}
+
+#two,
+#three {
+    display: none;
+}
