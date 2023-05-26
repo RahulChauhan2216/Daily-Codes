@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="tab-content">
+
+            <div class="content" id="one">
+                <h1>Tokyo</h1>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="content" id="two">
+                <h1>London</h1>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="content" id="three">
+                <h1>Paris</h1>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="content" id="four">
+                <h1>Oslo</h1>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+        </div>
+
+
+        <div id="btngrp">
+            <button class="btn" id="btn1" onclick="show(one,two,three,four,this,'rgb(244,67,54)')">Tokyo</button>
+            <button class="btn" id="btn2" onclick="show(two,one,three,four,this,'rgb(4,170,109)')">London</button>
+            <button class="btn" id="btn3" onclick="show(three,two,one,four,this,'rgb(33,150,243)')">Paris</button>
+            <button class="btn" id="btn4" onclick="show(four,two,three,one,this,'rgb(255,87,34)')">Oslo</button>
+        </div>
+
+    </div>
+
+
+    <script src="java.js"></script>
+</body>
+
+</html>
