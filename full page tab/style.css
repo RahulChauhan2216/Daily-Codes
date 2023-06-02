@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#two,
+#three,
+#four {
+    display: none;
+}
+
+#container {
+    margin: 50px auto;
+    width: 70%;
+}
+
+#tab-content {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    width: 100%;
+}
+
+.content h1 {
+    padding: 30px;
+    font-size: 35px;
+}
+
+.content p {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+#btngrp {
+    display: flex;
+    width: 100%;
+}
+
+
+.btn {
+    padding: 20px;
+    font-size: 15px;
+    width: 25%;
+    border: none;
+    background: rgb(224, 224, 224);
+}
+
+.btn:hover {
+    background: rgb(151, 150, 150);
+}
+
+
+#one {
+    background-color: rgb(244, 67, 54);
+}
+
+#two {
+    background-color: rgb(4, 170, 109);
+}
+
+#three {
+    background-color: rgb(33, 150, 243);
+}
+
+#four {
+    background-color: rgb(255, 87, 34);
+}
