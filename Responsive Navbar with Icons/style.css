@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(68, 66, 66);
+}
+
+.tag1,
+.tag {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.tag1{
+    background-color: rgb(20, 156, 97);
+}
+
+.tag h3,
+.tag1 h3 {
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-solid,
+.fa-regular {
+    color: white;
+    font-size: 16px;
+}
+
+.tag:hover,
+.tag1:hover {
+    background-color: black;
+}
+
+
+@media screen and (max-width: 500px) {
+    #container{
+        flex-direction: column;
+    }
+    
+}
