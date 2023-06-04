@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+}
+
+#first ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#first li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+.one {
+    background-color: rgb(33, 150, 243) !important;
+    color: white !important;
+}
+
+#first a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+#first li:hover {
+    background-color: lightgrey;
+}
+
+#second {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+#find {
+    padding: 7px;
+    width: 80%;
+}
+
+button {
+    border: none;
+}
+
+.fa-magnifying-glass {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(158, 154, 154);
+    border: none;
+}
+
+.fa-magnifying-glass:hover {
+    background-color: rgb(173, 170, 170);
+}
