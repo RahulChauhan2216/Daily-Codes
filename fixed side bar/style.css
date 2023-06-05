@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+}
+
+#first {
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    background-color: #111; 
+    overflow-x: hidden;
+} 
+
+#first li {
+    list-style: none;
+    padding: 20px;
+}
+
+#first a {
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(177, 177, 177);
+}
+
+#first a:hover {
+  color: #f1f1f1;
+}
+
+#second {
+    padding: 20px;
+    overflow-x: scroll;
+    margin-left: 160px;
+}
+
+#second h1 {
+    font-size: 45px;
+    padding: 20px 0px;
+}
+
+#second p {
+    font-size: 22px;
+    padding: 20px 0px;
+}
